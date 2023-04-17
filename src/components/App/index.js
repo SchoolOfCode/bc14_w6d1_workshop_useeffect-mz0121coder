@@ -19,7 +19,7 @@ function App() {
 			<button onClick={handleClick}>Get Random Pokemon</button>
 			{/* TODO: Task 2 -  hand down id as a prop */}
 			<PokemonViewer id={id} />
-			<StarWarsSearch />
+			{/* <StarWarsSearch /> */}
 		</div>
 	);
 }
