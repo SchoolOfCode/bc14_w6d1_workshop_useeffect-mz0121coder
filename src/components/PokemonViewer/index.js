@@ -3,9 +3,10 @@ import { useState } from 'react';
 
 function PokemonViewer({ id }) {
 	const [name, setName] = useState('');
+	const [height, setHeight] = useState(0);
+	const [weight, setWeight] = useState(0);
 	const [image, setImage] = useState('');
 	const [abilities, setAbilities] = useState([]);
-	// const
 
 	//TODO: Task 1 - send http request to `https://pokeapi.co/api/v2/pokemon/1' and display the data
 	useEffect(() => {
